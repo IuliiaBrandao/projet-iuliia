@@ -46,7 +46,7 @@ header {
     background-image: url("../images/hero-bg.jpg");
     background-size: cover;
     background-position: center;
-   
+
 
 }
 
@@ -56,7 +56,7 @@ header .article1 {
     align-items: center;
 }
 
-header .article2{
+header .article2 {
     padding-top: 10%;
     display: flex;
     flex-direction: column;
@@ -64,19 +64,19 @@ header .article2{
     gap: 1rem;
 }
 
-header .article2 p{
+header .article2 p {
     color: red;
     font-weight: bolder;
 }
 
-header .article2 h3{
+header .article2 h3 {
     color: white;
     margin: 0;
     padding: 0;
     font-size: 24px;
 }
 
-header .article2 h1{
+header .article2 h1 {
     color: white;
     margin: 0;
     padding: 0;
@@ -87,7 +87,7 @@ header section img {
     width: 150px;
 }
 
-header .filter{
+header .filter {
     background-color: rgba(0, 0, 0, 0.521);
     height: 100vh;
 }
@@ -106,25 +106,28 @@ footer {
 footer p {
     text-align: center;
 }
+
 main p {
     text-align: center;
     margin-top: 0;
-  display: flex;
-  flex-direction: column;
- 
-    
+    display: flex;
+    flex-direction: column;
+font-family: "Noto Sans", sans-serif;
+
 }
-main img{
+
+main img {
     margin-top: 0;
     padding-top: 3%;
     padding-left: 5%;
     display: flex;
     justify-items: flex-start;
-width: 100px;
-color: whitesmoke;
-justify-content: center;
+    width: 100px;
+    color: whitesmoke;
+    justify-content: center;
 }
-main{
+
+main {
 
     background-color: rgb(221, 209, 209);
 }
