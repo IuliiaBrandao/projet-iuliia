@@ -113,7 +113,7 @@ main p {
     display: flex;
     flex-direction: column;
 font-family: "Noto Sans", sans-serif;
-
+font-size: 20px;
 }
 
 main img {
