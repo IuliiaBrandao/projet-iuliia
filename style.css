@@ -146,8 +146,10 @@ div.article3 h5{
 }
 section div img{ 
     display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
    width: 500px;
    margin-left: 0;
    margin-right: 0;
 }
-    
+
