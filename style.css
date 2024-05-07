@@ -140,25 +140,35 @@ main .article3 p {
     display: flex;
     justify-content: center;
 }
-main div button{
 
-}
 div.article3 h5 {
     text-align: center;
     color: crimson;
     font-weight: bold;
 }
 
-.evenement{
+.evenement {
     padding: 2rem;
 }
-.evenement div img {
-    display: flex;
-    justify-content: space-between; 
-    width: 80%; 
-    margin: auto;
-    align-items: center;
-    width: 500px;
-    border-radius: 5px;
 
+.deux-images {
+    display: flex;
+    justify-content: space-between;
+}
+
+.un-image {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;   
+}
+.un1 {
+    filter: drop-shadow(30px 10px 4px grey);
+}
+.un-image p {
+    font-size: large;
+}
+
+.ev {
+    font-weight: bold;
 }
