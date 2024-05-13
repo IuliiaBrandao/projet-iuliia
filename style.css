@@ -190,7 +190,21 @@ div.article3 h5 {
     
 }
 
-
+.section2 h3{
+    padding-top: 80px;
+    color: white;
+    /* margin: 0; */
+    padding: 0;
+    font-size: 34px;
+}
+.section2 h4{
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-size: 16px; 
+    font-weight: 400;
+    padding-bottom: 40px;
+}
 
 .section2-content {
     width: 50%;
@@ -266,7 +280,7 @@ ul li a {
     color: crimson;
 }
 
-/* .container h1 {
+.container h1 {
     color: black;
     margin: 0;
     padding: 0;
@@ -279,7 +293,7 @@ ul li a {
     padding: 20px;
     font-size: 18px;
     font-weight: 200;
-} */
+}
 
 
 
