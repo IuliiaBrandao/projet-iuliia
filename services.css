@@ -128,7 +128,10 @@ div.article3 h4 {
     justify-content: space-between;
 }
  .deux-images1 p{
-
+    text-align: center;
+ }
+ .deux-images2 p{
+    text-align: center;
  }
 .un-image {
     display: flex;
@@ -136,11 +139,9 @@ div.article3 h4 {
     gap: 2rem;
     align-items: center;
 } 
-
 .un1 {
     filter: drop-shadow(30px 10px 4px grey);
 }
-
 .un-image p {
     font-size: large;
 }
