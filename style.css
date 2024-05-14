@@ -187,21 +187,22 @@ div.article3 h5 {
     justify-content: flex-end;
     padding: 1rem;
     color: white;
-    
+
 }
 
-.section2 h3{
+.section2 h3 {
     padding-top: 80px;
     color: white;
     /* margin: 0; */
     padding: 0;
     font-size: 34px;
 }
-.section2 h4{
+
+.section2 h4 {
     color: white;
     margin: 0;
     padding: 0;
-    font-size: 16px; 
+    font-size: 16px;
     font-weight: 400;
     padding-bottom: 40px;
 }
@@ -218,8 +219,6 @@ div.article3 h5 {
 .container .imgs {
     /* width: 100%; */
     display: flex;
-   
-
     gap: 2rem;
 }
 
@@ -240,6 +239,7 @@ ul li a {
     width: 90%;
     border-radius: 5px;
 }
+
 /* .section2 p{
     display: flex;
     flex-direction: column;
@@ -275,6 +275,7 @@ ul li a {
     padding: 6rem;
     gap: 4rem;
 }
+
 .container p {
     text-align: left;
     color: crimson;
@@ -294,23 +295,17 @@ ul li a {
     font-size: 18px;
     font-weight: 200;
 }
-
-
-
 .article4 {
     width: 40%;
     padding-top: 0;
     padding-bottom: 0;
     padding-left: 25;
     padding-right: 20;
-
 }
-
 .article4 {
     display: flex;
     justify-content: flex-start;
 }
-
 .p {
     color: crimson;
     font-weight: bolder;
