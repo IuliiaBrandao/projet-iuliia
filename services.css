@@ -185,7 +185,55 @@ div.article3 h4 {
 }
 
 .basservices{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-top: 3rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 3rem;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+}
+h6 {
+    color: rgb(6, 0, 0);
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+}
+.souligner {
+    color: crimson;
+    font-weight: bolder;
+}
 
+.ligne {
+    color: crimson;
+    font-weight: bolder;
+}
+.list{
+    margin: 0;
+    padding: 0;
+    width: 12px;
+    display: inline-block;
+    text-align: center;
+    border-color: crimson;
+   
+}
+.inlinetext p{
+    display: flex;
+    /* justify-content: flex-end; */
+    align-items: flex-start;
+    padding-left: 10px;
+    display: inline-block;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
 }
 .mission{
     width: 30%;
@@ -193,9 +241,7 @@ div.article3 h4 {
     flex-direction: column;
     align-items: flex-start;
     gap: 1rem;
-    text-align: left;
-        
-    
+    text-align: left;          
 }
 footer {
     height: 200px;
@@ -204,7 +250,6 @@ footer {
     color: white;
     font-family: "Noto Sans", sans-serif;
 }
-
 footer p {
     text-align: center;
 }

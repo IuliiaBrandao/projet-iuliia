@@ -114,14 +114,11 @@ ul li a {
     align-items: flex-start;
     padding-left: 10px;
     display: inline-block;
-
 }
 ul {
     margin: 0;
     padding: 0;
     list-style-type: none;
-   
-   
 }
 .h1 {
     color: rgb(6, 0, 0);
