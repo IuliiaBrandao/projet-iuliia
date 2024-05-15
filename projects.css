@@ -94,13 +94,17 @@ header section img {
     flex-direction: column;
     justify-content: flex-start;
     margin-top: 50px;
+    padding-left: 60px;
 }
 .h4 {
-    border-bottom: solid #fb2056 2px;
-    width: 30px;
-    margin-left: 5px;
+    border-bottom: solid #fb2056 3px;
+    width: 70px;
+    margin-left: 10px;
 }
 
+.article3 p{
+    font-weight: bold;
+}
 .article3 h5 {
     color: black;
     font-size: 34px;
@@ -115,6 +119,7 @@ header section img {
     justify-content: space-around;
     /* gap: 2em; */
     margin-top: 50px;
+    margin-bottom: 200px;
 }
 
 footer {
