@@ -83,7 +83,7 @@ header .article2 h1 {
     font-size: 64px;
 }
 
-main .article3 p {
+.article3 p {
     color: black;
     margin-top: 70px;
     padding: 0;
@@ -93,7 +93,7 @@ main .article3 p {
     justify-content: center;
 }
 
-div.article3 h4 {
+.article3 h4 {
     text-align: center;
     color: crimson;
     font-weight: bold;
