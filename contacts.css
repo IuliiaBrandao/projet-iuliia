@@ -42,6 +42,9 @@ h3 {
     gap: 1rem;
     text-align: left;
 }
+.pa{
+    padding: 10px;
+}
 footer {
     height: 200px;
     background-color: black;
