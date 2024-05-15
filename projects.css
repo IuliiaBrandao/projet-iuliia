@@ -4,6 +4,7 @@ body {
     padding: 0;
     font-family: "Montserrat", sans-serif;
 }
+
 nav ul {
     display: flex;
     align-items: center;
@@ -40,13 +41,13 @@ header .article1 {
     justify-content: space-around;
     align-items: center;
 }
+
 header .article2 h1 {
     color: rgb(255, 255, 255);
     margin: 0;
     padding: 90px;
     font-size: 64px;
 }
-
 
 header .article2 {
     padding-top: 10%;
@@ -78,52 +79,59 @@ header .article2 h1 {
 header section img {
     width: 150px;
 }
-.article3{
-    background-color: rgb(214, 212, 208);
-    padding-left: 70px;
-   
-}
 
-main .article3 h5 {
-    color: black;
-    /* margin-top: 70px; */
-    /* padding: 30px; */
-    font-size: 34px;
-    font-weight: bold;
-    display: flex;
-    justify-content: flex-start;
-}
-
-div.article3 h4 {
-    text-align: start;
-    color: crimson;
-    font-weight: bold;
-    /* padding-left: 70px; */
+.container {
+    background-color: rgba(255, 255, 255, 0.574);
 }
 
 .article3 p {
     color: black;
-    
-    /* padding-left: 70px;
-    margin: 40px;
-    padding: 0; */
     font-size: 20px;
-    font-style: bold;
-    font-weight: 400;
+    font-style: bolder;
+    /* font-weight: 400; */
+    padding-left: 90px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.article3 h4 {
+    text-align: start;
+    color: crimson;
+    font-weight: bold;
+    padding-left: 90px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.article3 h5 {
+    color: black;
+
+    font-size: 34px;
+    font-weight: bold;
+    padding-left: 90px;
     display: flex;
     justify-content: flex-start;
 }
 
 .article3 h6 {
     color: black;
-    
-    /* padding-left: 70px; */
+
     font-size: 16px;
     font-weight: 400;
+    padding-left: 90px;
     display: flex;
     justify-content: flex-start;
 }
+.troisimg{
 
+    display: flex;
+    align-items: self-start;
+    justify-content: space-around;
+    padding-top: 3rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 3rem;
+}
 
 footer {
     height: 200px;
