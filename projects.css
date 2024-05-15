@@ -79,14 +79,14 @@ header section img {
     width: 150px;
 }
 .article3{
-    background-color: rgb(181, 178, 174);
+    background-color: rgb(214, 212, 208);
    
 }
 
 main .article3 h5 {
     color: black;
-    margin-top: 70px;
-    padding: 0;
+    /* margin-top: 70px; */
+    padding: 70px;
     font-size: 34px;
     font-weight: bold;
     display: flex;
@@ -97,13 +97,16 @@ div.article3 h4 {
     text-align: start;
     color: crimson;
     font-weight: bold;
+    padding: 70px;
 }
 
 .article3 p {
     color: black;
-    margin: 0;
-    padding: 0;
-    font-size: 16px;
+    padding: 70px;
+    /* margin: 0;
+    padding: 0; */
+    font-size: 20px;
+    font-style: bold;
     font-weight: 400;
     display: flex;
     justify-content: flex-start;
@@ -111,8 +114,9 @@ div.article3 h4 {
 
 .article3 h6 {
     color: black;
-    margin: 0;
-    padding: 0;
+    padding: 70px;
+    /* margin: 0;
+    padding: 0; */
     font-size: 16px;
     font-weight: 400;
     display: flex;
