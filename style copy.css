@@ -27,7 +27,7 @@ button {
 header {
     width: 100%;
     height: 100vh;
-    position: relative;
+    background-repeat: no-repeat;
     background-image: url("./images/hero-bg.jpg");
     background-size: cover;
     background-position: center;
@@ -116,7 +116,7 @@ div.article3 h5 {
 }
 
 .evenement {
-    padding: 2rem;
+    padding: 2rem 0px;
 }
 
 .deux-images {
@@ -127,6 +127,7 @@ div.article3 h5 {
 .un-image {
     display: flex;
     flex-direction: column;
+    width: 40%;
     gap: 2rem;
     align-items: center;
 }
@@ -216,7 +217,7 @@ ul li a {
 
 .container {
     display: flex;
-    padding: 6rem;
+    /* padding: 6rem; */
     gap: 4rem;
 }
 
@@ -300,13 +301,20 @@ footer p {
     text-align: center;
 }
 
-@media (max-width:412px) {
+@media (max-width:920px) {
+    .article2 h1 {
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        font-size: 14px;
+    }
 
-    /* .white-logo{
-        color:black;
-        background-color: white;
-    } */
-    nav {
+    header {
+        background-size: auto;
+        background-image: cover;
+    }
+
+    /* nav {
         margin: 100px auto;
         width: 50%;
         height: 100px;
@@ -329,10 +337,21 @@ footer p {
         text-decoration: none;
         font-family: Arial, sans-serif;
         color: black
+    } */
+
+
+    .evenement {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
     }
 
-    nav a:hover {
-        background: #f8f8f8f4
+    .quotaion {
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        padding-top: 40px;
+        padding-bottom: 40px;
     }
 
     .section2 {
@@ -340,9 +359,8 @@ footer p {
         height: Auto;
     }
 
-    header {
-        background-size: auto;
-        background-image: cover;
+    .un1 {
+        max-width: 80%;
     }
 
     .deux-images {
@@ -351,8 +369,9 @@ footer p {
         flex-direction: column;
 
     }
-    .un-image{
-        width: 70%;
+
+    .un-image {
+        max-width: 412px;
         display: flex;
         flex-direction: column;
         align-self: center;
@@ -365,22 +384,19 @@ footer p {
         align-items: flex-start;
     }
 
-    .article2 {
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-    }
-    .imgs{
+
+    .imgs {
         width: 100%;
         display: flex;
         flex-direction: column;
     }
-    .container{
+
+    .container {
         width: 100%;
         display: flex;
         flex-direction: column;
     }
-   
+
 
 
 }
