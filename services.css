@@ -27,9 +27,11 @@ nav ul {
     list-style-type: none;
     color: white;
 }
+
 .white-logo {
     padding-top: 20px;
 }
+
 button {
     width: 150px;
     height: 50px;
@@ -51,7 +53,7 @@ header {
     background-blend-mode: color;
     background-color: rgba(0, 0, 0, 0.403);
 
-   
+
     /* width: 100%;
     height: 100vh;
     position: relative;
@@ -148,25 +150,31 @@ header .article2 h1 {
     display: flex;
     justify-content: space-between;
 }
+
 .deux-images1 {
     display: flex;
     justify-content: space-between;
 }
- .deux-images1 p{
+
+.deux-images1 p {
     text-align: center;
- }
- .deux-images2 p{
+}
+
+.deux-images2 p {
     text-align: center;
- }
+}
+
 .un-image {
     display: flex;
     flex-direction: column;
     gap: 2rem;
     align-items: center;
-} 
+}
+
 .un1 {
     filter: drop-shadow(30px 10px 4px grey);
 }
+
 .un-image p {
     font-size: large;
 }
@@ -180,10 +188,12 @@ header .article2 h1 {
     display: flex;
     flex-direction: column;
 }
+
 .un1 {
     width: 505px;
     height: 302px;
 }
+
 .section1 {
     width: 90%;
     display: flex;
@@ -209,7 +219,7 @@ header .article2 h1 {
 
 }
 
-.basservices{
+.basservices {
     width: 90%;
     display: flex;
     /* justify-content: space-around; */
@@ -224,12 +234,14 @@ header .article2 h1 {
     margin-right: 2rem;
     margin-bottom: 1rem;
 }
+
 h6 {
     color: rgb(6, 0, 0);
     margin: 0;
     padding: 0;
     font-size: 24px;
 }
+
 .souligner {
     color: crimson;
     font-weight: bolder;
@@ -239,16 +251,18 @@ h6 {
     color: crimson;
     font-weight: bolder;
 }
-.list{
+
+.list {
     margin: 0;
     padding: 0;
     width: 12px;
     display: inline-block;
     text-align: center;
     border-color: crimson;
-   
+
 }
-.inlinetext p{
+
+.inlinetext p {
     display: flex;
     /* justify-content: flex-end; */
     align-items: flex-start;
@@ -261,14 +275,16 @@ ul {
     padding: 0;
     list-style-type: none;
 }
-.mission{
+
+.mission {
     width: 30%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 1rem;
-    text-align: left;          
+    text-align: left;
 }
+
 footer {
     height: 200px;
     background-color: black;
@@ -276,6 +292,7 @@ footer {
     color: white;
     font-family: "Noto Sans", sans-serif;
 }
+
 footer p {
     text-align: center;
 }
@@ -308,16 +325,18 @@ footer p {
         height: 20px !important;
         display: flex;
         justify-content: space-between;
-        
+
     }
 
     h1 {
         font-size: 44px !important;
 
     }
+
     .un1 {
         max-width: 80%;
     }
+
     .ev {
         max-width: 80%;
     }
@@ -335,6 +354,11 @@ footer p {
         /* flex-direction: column; */
         align-self: center;
         padding-bottom: 10%;
+    }
+
+    .un1 {
+        width: 252px;
+        height: 151px;
     }
 
     .container {
