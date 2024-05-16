@@ -333,12 +333,12 @@ footer p {
     }
 
     .un1 {
-        max-width: 80%;
+        max-width: 100%;
     }
 
     .ev {
         max-width: 80%;
-    }
+    } 
 
     .deux-images {
         width: 90%;
