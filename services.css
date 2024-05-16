@@ -4,6 +4,21 @@ body {
     padding: 0;
     font-family: "Montserrat", sans-serif;
 }
+
+.black-logo {
+    display: none;
+    /* display: flex; */
+    justify-content: flex-start;
+}
+
+.mmm {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: flex-end;
+    display: none;
+}
+
 nav ul {
     display: flex;
     align-items: center;
@@ -262,4 +277,41 @@ footer {
 }
 footer p {
     text-align: center;
+}
+
+@media (max-width:920px) {
+    .white-logo {
+        display: none;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .top {
+        background-color: white;
+        width: 920px;
+        height: 70px;
+    }
+
+    .black-logo {
+        display: none;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 10px;
+        align-items: self-start;
+    }
+
+    .mmm {
+        width: 20px !important;
+        height: 20px !important;
+        display: flex;
+        justify-content: space-between;
+        /* padding-right: 0; */
+    }
+
+    h1 {
+        font-size: 44px !important;
+
+    }
 }
