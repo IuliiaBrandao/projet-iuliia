@@ -7,7 +7,7 @@ body {
 
 .black-logo {
     display: none;
-    display: flex;
+    /* display: flex; */
     justify-content: flex-start;
 }
 
@@ -99,11 +99,11 @@ main p {
     font-size: 20px;
 }
 
-main .quotaion {
-    position: absolute;
-    left: 100px;
+main .quotation {
+    position: relative;
     width: 100px;
-    top: 50px;
+    /* top: 50px;
+    left: 100px; */
 }
 
 main {
@@ -337,7 +337,7 @@ footer p {
         display: flex;
         justify-content: space-between;
         padding-top: 10px;
-        padding-right: 500px;
+        /* padding-right: 500px; */
     }
 
     .mmm {
@@ -350,27 +350,26 @@ footer p {
 
 
     h1 {
-        font-size: 34px !important;
-        
-        /* background-size: 480px;
-        background-image: cover;
-        height: 150vh; */
+        font-size: 44px !important;
+      
     } 
-
-   
-   
-   
     .evenement {
-        width: 50%;
+        width: 100%;
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
     }
 
-    .quotaion {
-        display: flex;
+    .quotation {
+        /* display: flex;
+        justify-content: center;
         flex-direction: column;
-        padding-top: 40px;
-        padding-bottom: 40px;
+        align-items: center; */
+        position: relative;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
 
     .section2 {
