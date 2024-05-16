@@ -343,6 +343,7 @@ footer p {
     .deux-images {
         width: 90%;
         display: flex;
+        flex-wrap: nowrap;
         /* flex-direction: column; */
 
     }
@@ -356,8 +357,8 @@ footer p {
     }
 
     .un1 {
-        width: 252px;
-        height: 151px;
+        width: 300px;
+        height: 200px;
     }
 
     .container {
