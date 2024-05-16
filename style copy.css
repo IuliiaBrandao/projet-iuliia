@@ -4,9 +4,18 @@ body {
     padding: 0;
     font-family: "Montserrat", sans-serif;
 }
- .black-logo{
+.black-logo {
     display: none;
-} 
+    display: flex;
+    justify-content: flex-start;
+}
+.mmm{
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: flex-end;
+    display: none;
+}
 
 button {
     width: 150px;
@@ -17,10 +26,19 @@ button {
     color: white;
     font-family: "Montserrat", sans-serif;
 }
-#exp{
-    width: 920px;
-    height: 476,36px;
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    border-style: solid 3px;
+    list-style-type: none;
+    color: white;
 }
+#exp {
+    width: 920px;
+    height: 476, 36px;
+}
+
 header {
     width: 100%;
     height: 100vh;
@@ -300,16 +318,22 @@ footer p {
 
 @media (max-width:920px) {
 
-    .white-logo{
+    .white-logo {
+        display: none;
+    }
+
+
+    
+    .menu {
         display: none;
     }
 
     .top {
         background-color: white;
-        width: 100%; 
+        width: 100%;
         height: 70px;
-     }
-    
+    }
+
 
     .article2 h1 {
         justify-content: center;
@@ -322,6 +346,7 @@ footer p {
         background-size: auto;
         background-image: cover;
     }
+
     .article2 h1 {
         display: flex;
         align-items: center;
@@ -342,7 +367,7 @@ footer p {
         padding-bottom: 40px;
     }
 
-    
+
 
     .section2 {
         background-size: cover;
