@@ -346,7 +346,7 @@ footer p {
     }
 
     .deux-images {
-        width: 30%;
+        width: 100%;
         display: flex;
         flex-direction: column;
 
@@ -370,6 +370,17 @@ footer p {
         align-items: center;
         width: 100%;
     }
+    .imgs{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+   
 
 
 }
