@@ -212,7 +212,8 @@ header .article2 h1 {
 .basservices{
     width: 90%;
     display: flex;
-    justify-content: space-around;
+    /* justify-content: space-around; */
+    justify-content: space-between;
     align-items: flex-start;
     padding-top: 3rem;
     padding-left: 3rem;
@@ -307,11 +308,53 @@ footer p {
         height: 20px !important;
         display: flex;
         justify-content: space-between;
-        /* padding-right: 0; */
+        
     }
 
     h1 {
         font-size: 44px !important;
 
+    }
+    .un1 {
+        max-width: 80%;
+    }
+    .ev {
+        max-width: 80%;
+    }
+
+    .deux-images {
+        width: 90%;
+        display: flex;
+        /* flex-direction: column; */
+
+    }
+
+    .un-image {
+        max-width: 450px;
+        display: flex;
+        /* flex-direction: column; */
+        align-self: center;
+        padding-bottom: 10%;
+    }
+
+    .container {
+        padding-top: 3%;
+        width: 100%;
+        display: flex;
+        /* flex-direction: column; */
+    }
+
+    .container section1 {
+        width: 100%;
+        display: flex;
+        /* flex-direction: column; */
+        justify-content: center;
+    }
+
+    .imgs {
+        width: 100%;
+        display: flex;
+        /* flex-direction: column; */
+        justify-content: center;
     }
 }
