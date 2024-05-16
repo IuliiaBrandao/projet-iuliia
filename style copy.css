@@ -401,15 +401,15 @@ button{
 } */
 
 @media (max-width:412px) {
-    header {
+    .m {
         background-image: 100%;
         width: 100%;
     }
-
+}
     /* div {
         flex-direction: column;
     } */
-    img {
+    /* img {
         width: 100%;
     }
 
@@ -421,4 +421,4 @@ button{
     button {
         display: inline;
     }
-}
+} */
