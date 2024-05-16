@@ -34,10 +34,7 @@ nav ul {
     list-style-type: none;
     color: white;
 }
-#exp {
-    width: 920px;
-    height: 476, 36px;
-}
+
 
 header {
     width: 100%;
@@ -318,29 +315,41 @@ footer p {
 
 @media (max-width:920px) {
 
+
+
     .white-logo {
         display: none;
-    }
+    } 
 
-
-    
     .menu {
         display: none;
     }
 
     .top {
         background-color: white;
-        width: 100%;
+        width: 920px;
         height: 70px;
     }
 
-
-    .article2 h1 {
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-        font-size: 14px;
+    .black-logo {
+        display: none;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 10px;
+        padding-right: 500px;
     }
+
+    .mmm{
+        width: 20px;
+        height: 20px;
+        display: flex;
+        justify-content: space-between;
+        padding-right: 0;
+        
+    #expl {
+            width: 920px;
+            height: 476, 36px;
+        }
 
     header {
         background-size: auto;
@@ -349,8 +358,11 @@ footer p {
 
     .article2 h1 {
         display: flex;
+        justify-content: center;
         align-items: center;
         font-size: small;
+        width: 100%;
+        font-size: 14px;
     }
 
     .evenement {
@@ -360,7 +372,7 @@ footer p {
     }
 
     .quotaion {
-        width: 40%;
+        /* width: 40%; */
         display: flex;
         flex-direction: column;
         padding-top: 40px;
@@ -413,7 +425,7 @@ footer p {
         /* flex-direction: column; */
         justify-content: center;
     }
-
+}
 
 
 }
