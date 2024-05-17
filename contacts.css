@@ -169,13 +169,15 @@ footer p {
         height: 50vh;
         background-attachment: scroll;
     }
-.section2{
-    width: 100%;
+
+    .section2 {
+        width: 100%;
         display: flex;
-        flex-direction: column; 
-}
-     .mission2 {
-      padding-bottom: 50px;
+        flex-direction: column;
+    }
+
+    .mission2 {
+        padding-bottom: 50px;
     }
 
 }
