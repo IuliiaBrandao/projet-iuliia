@@ -26,7 +26,7 @@ body{
 }
 .black-logo {
     display: none;
-    justify-content: flex-start;
+   
 }
 
 .mmm {
@@ -73,7 +73,6 @@ footer {
     color: white;
     font-family: "Noto Sans", sans-serif;
 }
-
 footer p {
     text-align: center;
 }
@@ -91,36 +90,28 @@ footer p {
         height: 70px;
     }
     .black-logo {
-        display: none;
         display: flex;
-        justify-content: space-between;
+ 
         padding-top: 20px;
-        align-items: self-start;
         width: 120px;
         height: 50px;
     }
-    
+  
     .mmm {
         width: 20px !important;
         height: 20px !important;
+       margin-top: 20px;
         display: flex;
-        justify-content: space-between;
-    
+       
     }
-
     header {
-        height: 30vh;  
+        height: 50vh;  
         background-attachment: scroll;
     }   
-    header .h1{
-    font-size: 50px;
-    }    
     .mission2{
         width: 40%;
-
     }  
     .mission3{
         width: 40%;
-
     }  
 }   
