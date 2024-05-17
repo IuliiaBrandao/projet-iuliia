@@ -226,7 +226,7 @@ footer p {
 
     header {
         width: 420px;
-        height: 70vh;
+        height: 50vh;
         background-attachment: scroll;
     }
 
@@ -242,6 +242,12 @@ footer p {
         background-color: white;
         width: 420px;
         height: 70px;
+    }
+.article2 h1{
+    font-size: 24px;
+}
+    .p-12 {
+        width: 420px;
     }
 
     .black-logo {
@@ -270,27 +276,18 @@ footer p {
         display: none;
     }
 
-     
     .w50 {
         display: none;
-    } 
+    }
 
     .container {
         margin-left: 0px;
-        margin-right: 100px;
+        margin-right: 80px;
     }
 
+    /* 
     .article3 {
         margin-top: 50px;
         padding-left: 30px;
-    }
-
-    .w {
-        display: none;
-    }
-
-    .w50 {
-        width: 45%;
-        gap: 1;
-    }
+    } */
 }
