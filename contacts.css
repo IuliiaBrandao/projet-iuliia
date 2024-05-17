@@ -1,4 +1,4 @@
-body{
+body {
     margin: 0;
     padding: 0;
     font-family: "Montserrat", sans-serif;
@@ -24,9 +24,10 @@ body{
     width: 150px;
     padding-top: 20px;
 }
+
 .black-logo {
     display: none;
-   
+
 }
 
 .mmm {
@@ -36,6 +37,7 @@ body{
     justify-content: flex-end;
     display: none;
 }
+
 .white-logo {
     padding-top: 20px;
 }
@@ -47,6 +49,7 @@ h3 {
     font-size: 64px;
     font-weight: bolder;
 }
+
 .mission2 {
     width: 30%;
     display: flex;
@@ -55,6 +58,7 @@ h3 {
     gap: 1rem;
     text-align: left;
 }
+
 .mission2 {
     width: 30%;
     display: flex;
@@ -63,9 +67,11 @@ h3 {
     gap: 1rem;
     text-align: left;
 }
-.pa{
+
+.pa {
     padding: 10px;
 }
+
 footer {
     height: 200px;
     background-color: black;
@@ -73,6 +79,7 @@ footer {
     color: white;
     font-family: "Noto Sans", sans-serif;
 }
+
 footer p {
     text-align: center;
 }
@@ -81,37 +88,94 @@ footer p {
     .white-logo {
         display: none;
     }
+
     .menu {
         display: none;
     }
+
     .top {
         background-color: white;
         width: 920px;
         height: 70px;
     }
+
     .black-logo {
         display: flex;
- 
+
         padding-top: 20px;
         width: 120px;
         height: 50px;
     }
-  
+
     .mmm {
         width: 20px !important;
         height: 20px !important;
-       margin-top: 20px;
+        margin-top: 20px;
         display: flex;
-       
+
     }
+
     header {
-        height: 50vh;  
+        height: 50vh;
         background-attachment: scroll;
-    }   
-    .mission2{
+    }
+
+    .mission2 {
         width: 40%;
-    }  
-    .mission3{
+    }
+
+    .mission3 {
         width: 40%;
-    }  
-}   
+    }
+}
+
+@media (max-width:425px) {
+    .white-logo {
+        display: none;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .top {
+        background-color: white;
+        width: 920px;
+        height: 70px;
+    }
+
+    .black-logo {
+        display: flex;
+
+        padding-top: 20px;
+        width: 120px;
+        height: 50px;
+    }
+
+    .mmm {
+        width: 20px !important;
+        height: 20px !important;
+        margin-top: 20px;
+        display: flex;
+
+    }
+
+    body {
+        width: 920px;
+        height: 70px;
+    }
+
+    header {
+        height: 50vh;
+        background-attachment: scroll;
+    }
+.section2{
+    width: 100%;
+        display: flex;
+        flex-direction: column; 
+}
+     .mission2 {
+      padding-bottom: 50px;
+    }
+
+}
