@@ -23,6 +23,23 @@ body{
     width: 150px;
     padding-top: 20px;
 }
+.black-logo {
+    display: none;
+    /* display: flex; */
+    justify-content: flex-start;
+}
+
+.mmm {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: flex-end;
+    display: none;
+}
+.white-logo {
+    padding-top: 20px;
+}
+
 h3 {
     color: rgb(6, 0, 0);
     margin: 0;
@@ -60,3 +77,36 @@ footer {
 footer p {
     text-align: center;
 }
+
+@media (max-width:920px) {
+    .white-logo {
+        display: none;
+    }
+    .menu {
+        display: none;
+    }
+    .top {
+        background-color: white;
+        width: 920px;
+        height: 70px;
+    }
+    .black-logo {
+        display: none;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 10px;
+        align-items: self-start;
+    }
+    
+    .mmm {
+        width: 20px !important;
+        height: 20px !important;
+        display: flex;
+        justify-content: space-between;
+    
+    }
+    header {
+        height: 70vh;  
+        background-attachment: scroll;
+    }         
+}   
