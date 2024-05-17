@@ -82,11 +82,15 @@ header .article2 {
     align-items: center;
     gap: 1rem;
 }
-
 header .article2 p {
+    color: black;
+    font-weight: 400;
+}
+header .article2 h4 {
     color: red;
     font-weight: bolder;
 }
+
 
 header .article2 h3 {
     color: white;
