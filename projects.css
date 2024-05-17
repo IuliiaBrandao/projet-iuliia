@@ -62,10 +62,18 @@ header .article1 {
 header .article2 h1 {
     color: rgb(255, 255, 255);
     margin: 0;
-    padding: 90px;
+    padding: 0;
+    /* padding: 90px; */
     font-size: 64px;
     font-weight: bolder;
 }
+/* header .article2 h1 {
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-size: 64px;
+}  */
+
 
 header .article2 {
     padding-top: 10%;
@@ -87,12 +95,6 @@ header .article2 h3 {
     font-size: 24px;
 }
 
-header .article2 h1 {
-    color: white;
-    margin: 0;
-    padding: 0;
-    font-size: 64px;
-}
 
 header section img {
     width: 150px;
@@ -100,7 +102,7 @@ header section img {
 
 .container {
     background-color: rgba(255, 255, 255, 0.574);
-    margin-left: 100Px;
+    margin-left: 100px;
     margin-right: 100px;
 }
 
@@ -128,8 +130,6 @@ header section img {
     font-size: 34px;
     font-weight: bold;
 }
-
-
 .troisimg{
 
     display: flex;
@@ -156,17 +156,14 @@ footer p {
     .white-logo {
         display: none;
     }
-    
     .menu {
         display: none;
     }
-    
     .top {
         background-color: white;
         width: 920px;
         height: 70px;
     }
-    
     .black-logo {
         display: none;
         display: flex;
@@ -182,9 +179,30 @@ footer p {
         justify-content: space-between;
     
     }
-      
+    header {
+        height: 70vh;  
+        background-attachment: scroll;
+    }         
+   
+.container {
+    margin-left: 0px;
+    margin-right: 100px;
+}
+.article3  {
+    margin-top: 50px;
+    padding-left: 30px;
+}
+.w{
+display: none;
+}
+.troisimg{
 
-   
-          
-   
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 200px;
+    
+    
+}
 }
