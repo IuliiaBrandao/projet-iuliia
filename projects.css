@@ -213,13 +213,13 @@ footer p {
         font-size: 44px !important;
     }
 
-    .he {
+    /* .he {
         width: 920px;
         height: 50vh;
         height: 80vh none;
         height: 50vh !important;
         background-attachment: scroll;
-    }
+    } */
 
     */ .container {
         margin-left: 0px;
@@ -275,7 +275,8 @@ footer p {
     }
 
     .article2 h1 {
-        font-size: 24px;
+        font-size: 64px none;
+        font-size: 30px !important;
     }
 
     .p-12 {
