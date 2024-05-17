@@ -428,10 +428,13 @@ footer p {
         margin-bottom: 20px;
         align-items: self-start;
     }
-    .article1{
+
+    .article1 {
         width: 420px;
+
     }
-    .article2{
+
+    .article2 {
         width: 420px;
     }
 
@@ -445,11 +448,21 @@ footer p {
 
     h1 {
         font-size: 30px !important;
-
     }
 
-    .section1{
-        width: 380px;
+    .article3 {
+        width: 80%;
+        padding-left: 10%;
+    }
+
+    .h5 {
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .section1 {
+        width: 70%;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -461,11 +474,11 @@ footer p {
 
 
     }
-    .section2{
-        width: 380px;
+
+    .section2 {
+        width: 70%;
         display: flex;
         flex-direction: column;
-        justify-content: center;
         padding-top: 3rem none;
         padding-left: 3rem none;
         padding-right: 3rem none;
@@ -474,10 +487,34 @@ footer p {
 
 
     .basservices {
-        width: 425px;
+        width: 80%;
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        
+        align-items: flex-start;
+        gap: 1rem;
+        text-align: start;
+        padding-top: 3rem none;
+        padding-left: 3rem none;
+        padding-right: 3rem none;
+        padding-bottom: 3rem none;
+        margin-top: 1rem none;
+        margin-left: 2rem none;
+        margin-right: 2rem none;
+        margin-bottom: 1rem none;
     }
+
+    .mission {
+        text-align: start;
+        width: 80%;
+    }
+    .container{
+        padding: 0;
+        margin: 0;
+    }
+    footer {
+    padding-left: 5%;
+    padding-right: 10%;
+    
+    }
+
 }
