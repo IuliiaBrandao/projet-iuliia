@@ -69,14 +69,6 @@ header .article2 h1 {
     font-weight: bolder;
 }
 
-/* header .article2 h1 {
-    color: white;
-    margin: 0;
-    padding: 0;
-    font-size: 64px;
-}  */
-
-
 header .article2 {
     padding-top: 10%;
     display: flex;
@@ -103,9 +95,10 @@ header .article2 h3 {
     font-size: 24px;
 }
 
-.w30{
+.w30 {
     display: none;
 }
+
 header section img {
     width: 150px;
 }
@@ -142,6 +135,7 @@ header section img {
     font-size: 34px;
     font-weight: bold;
 }
+
 .troisimg {
 
     display: flex;
@@ -150,11 +144,13 @@ header section img {
     margin-top: 50px;
     margin-bottom: 200px;
 }
+
 .w {
     width: 25%;
     border-radius: 2%;
     gap: 1;
 }
+
 .w30 {
     width: 25%;
     border-radius: 2%;
@@ -180,7 +176,8 @@ footer p {
 }
 
 @media (max-width:920px) {
-    .white-logo {
+
+    .white-logo 
         display: none;
     }
 
@@ -209,12 +206,17 @@ footer p {
         justify-content: space-between;
 
     }
-   
-
-    header {
-        height: 70vh;
+    header .article2 h1 {
+        font-size: 64px none;
+        font-size: 44px !important;
+/* 
+    .he {
+        width: 920px;
+        height: 50vh;
+        height: 80vh none;
+        height: 50vh !important;
         background-attachment: scroll;
-    }
+    } */
 
     .container {
         margin-left: 0px;
@@ -237,7 +239,8 @@ footer p {
 }
 
 @media (max-width:425px) {
-    body {
+
+    body 
         width: 420px;
     }
 
@@ -246,6 +249,11 @@ footer p {
         height: 50vh;
         background-attachment: scroll;
     }
+
+    header .article2 h1 {
+        font-size: 64px none;
+        font-size: 44px !important;
+
 
     .white-logo {
         display: none;
