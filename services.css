@@ -424,7 +424,8 @@ footer p {
         display: flex;
         justify-content: space-between;
         padding-top: 10px;
-        margin-bottom: 10px;
+        padding-bottom: 10px;
+        margin-bottom: 20px;
         align-items: self-start;
     }
     .article1{
@@ -451,12 +452,24 @@ footer p {
         width: 380px;
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        padding-top: 3rem none;
+        padding-left: 3rem none;
+        padding-right: 3rem none;
+        padding-bottom: 3rem none;
+
+
 
     }
     .section2{
         width: 380px;
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        padding-top: 3rem none;
+        padding-left: 3rem none;
+        padding-right: 3rem none;
+        padding-bottom: 3rem none;
     }
 
 
@@ -464,6 +477,7 @@ footer p {
         width: 425px;
         display: flex;
         flex-direction: column;
+        justify-content: center;
         
     }
 }
