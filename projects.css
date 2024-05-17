@@ -243,9 +243,11 @@ footer p {
         width: 420px;
         height: 70px;
     }
-.article2 h1{
-    font-size: 24px;
-}
+
+    .article2 h1 {
+        font-size: 24px;
+    }
+
     .p-12 {
         width: 420px;
     }
@@ -285,9 +287,5 @@ footer p {
         margin-right: 80px;
     }
 
-    /* 
-    .article3 {
-        margin-top: 50px;
-        padding-left: 30px;
-    } */
+
 }
