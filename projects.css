@@ -103,7 +103,9 @@ header .article2 h3 {
     font-size: 24px;
 }
 
-
+.w30{
+    display: none;
+}
 header section img {
     width: 150px;
 }
@@ -140,15 +142,29 @@ header section img {
     font-size: 34px;
     font-weight: bold;
 }
-
 .troisimg {
 
     display: flex;
     align-items: center;
     justify-content: space-around;
-    /* gap: 2em; */
     margin-top: 50px;
     margin-bottom: 200px;
+}
+.w {
+    width: 25%;
+    border-radius: 2%;
+    gap: 1;
+}
+.w30 {
+    width: 25%;
+    border-radius: 2%;
+    gap: 1;
+}
+
+.w50 {
+    width: 25%;
+    border-radius: 2%;
+    gap: 1;
 }
 
 footer {
@@ -193,6 +209,7 @@ footer p {
         justify-content: space-between;
 
     }
+   
 
     header {
         height: 70vh;
