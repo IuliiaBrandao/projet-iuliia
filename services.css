@@ -64,6 +64,9 @@ header {
     background-color: rgba(0, 0, 0, 0.698); */
 
 }
+.menu {
+    text-decoration: none;
+}
 
 nav ul {
     display: flex;
@@ -72,6 +75,7 @@ nav ul {
     border-style: solid 3px;
     list-style-type: none;
     color: white;
+    text-decoration: none;
 }
 
 button {
