@@ -363,7 +363,7 @@ footer{
 
 @media (max-width:425px) {
     body {
-        width: 100%;
+        width: 125%;
     }
     .white-logo {
         display: none;
@@ -385,7 +385,6 @@ footer{
         display: flex;
         justify-content: space-between;
         padding-top: 10px;
-       
     }
 
     .mmm {
@@ -417,7 +416,7 @@ footer{
     }
 
     .container{
-        width: 100%;
+        width: 70%;
         padding: none;
 
     }
@@ -444,9 +443,12 @@ footer{
     margin-bottom:none;
     }
 footer{
-    width: 80%;
+    width: 70%;
     height: 30%;
-    padding-top: none;
+    padding-left: 3%;
+    padding-right: 25%;
+    padding-bottom: 5%;
+    padding-top: 5%;
 }
 
 }
