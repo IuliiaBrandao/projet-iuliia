@@ -196,10 +196,12 @@ footer p {
     }
 
     .black-logo {
+        width: 100px;
+        height: 50px;
         display: none;
         display: flex;
         justify-content: space-between;
-        padding-top: 10px;
+        padding-top: 20px;
         align-items: self-start;
     }
 
@@ -210,14 +212,19 @@ footer p {
         justify-content: space-between;
 
     }
+    header {
+        width: 95%;
+        height: 40vh;
+        background-attachment: scroll;
+    }
 
     header .article2 h1 {
-        font-size: 64px none;
+        padding-top: 60px;
         font-size: 44px !important;
     }
 
     .p-12{
-        width: 90%;
+        width: 95%;
     }
 
     .container {
