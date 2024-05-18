@@ -440,6 +440,12 @@ footer p {
         height: 30vh;
         background-attachment: scroll;
     }
+    header .article2 h1 {
+        margin: 0;
+        padding-top: 30px;
+        font-size: none;
+        font-size: 30px !important;
+    }
 
     .article1 {
         width: 100%;

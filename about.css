@@ -403,6 +403,12 @@ footer p {
         height: 35vh;
         background-attachment: scroll;
     }
+    header .article2 h1 {
+        margin: 0;
+        padding-top: 50px;
+        font-size: none;
+        font-size: 30px !important;
+    }
 
     .article2 {
         margin: none;
@@ -412,10 +418,7 @@ footer p {
         height: 222px !important;
     }
 
-    .article2.h1 {
-        font-size: none;
-        font-size: 30px !important;
-    }
+   
 
     .container {
         padding: none;
