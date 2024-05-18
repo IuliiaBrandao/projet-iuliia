@@ -396,26 +396,38 @@ footer p {
         padding: 0;
     }
 
-    .article2 {
+    header {
+        width: 75%;
+        height: 25vh;
+        background-attachment: scroll;
+    }
+
+    header .article2 h1 {
+        margin: 0;
+        padding-top: 30px;
+        font-size: none;
+        font-size: 30px !important;
+    }
+
+    /* .article2 {
         width: 90% !important;
         height: 40vh !important;
         padding: 0;
         margin: 0;
     }
+
     .article2 h1 {
         padding-top: 60px;
         font-size: none;
         font-size: 30px !important;
     }
 
-
-
     header {
         width: 80%;
         height: 50vh;
         background-attachment: scroll;
-    }
-   
+    } */
+
     .container {
         width: 70%;
         padding: none;
@@ -424,12 +436,12 @@ footer p {
 
     .section1 {
         width: 90%;
-       flex-direction: column;
+        flex-direction: column;
     }
 
     .section2 {
         width: 90%;
-       flex-direction: column;
+        flex-direction: column;
     }
 
     footer {
