@@ -373,7 +373,7 @@ footer p {
     .top {
         background-color: white;
         width: 100%;
-        height: 15%
+        height: 50px
     }
 
     .black-logo {
@@ -394,8 +394,8 @@ footer p {
 
     .article1 {
         width: 100%;
-        height: 0,3vh;
-       
+        height: 0, 3vh;
+
     }
 
     header {
@@ -403,29 +403,67 @@ footer p {
         height: 25vh;
         background-attachment: scroll;
     }
+
     .article2 {
         width: 120%;
     }
+
     .h1 {
         margin: none;
         padding: none;
         font-size: 30px !important;
+        width: 100px;
+        height: 50px;
     }
 
     .container {
-        width: 70%;
         padding: none;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+        text-align: start;
 
     }
 
+
+
     .section1 {
         width: 90%;
+        display: flex;
         flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+        text-align: start;
+    }
+    .cascade {
+        width: 50vh;
     }
 
     .section2 {
         width: 90%;
+        display: flex;
         flex-direction: column;
+    }
+
+    .section2 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mission {
+        width: 80%;
+    }
+
+    .mission2 {
+        width: 70%;
+        padding-bottom: 20px;
+    }
+
+    .mission3 {
+        width: 77%;
     }
 
     footer {
@@ -436,5 +474,6 @@ footer p {
         padding-bottom: 5%;
         padding-top: 5%;
     }
+
 
 }
