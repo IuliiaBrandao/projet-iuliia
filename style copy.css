@@ -448,7 +448,18 @@ footer p {
 
         .un-image {
             width: 1/2;
-            
+
+        }
+
+        .un1 {
+            width: 1/2;
+        }
+
+        .cascade {
+           
+        
+            width: 320px;
+            height: 220px;
         }
 
         .section2 {
@@ -474,9 +485,8 @@ footer p {
 
         .mission3 {
             width: 77%;
-        } */ */
-
-        .container {
+        } */
+        */ .container {
             padding: none;
             width: 80%;
             display: flex;
@@ -492,17 +502,19 @@ footer p {
         }
 
         .imgs {
-            
+
             width: 150%;
             display: flex;
             flex-direction: column;
         }
+
         .imgsblock {
-            
+
             width: 90%;
             display: flex;
             flex-direction: column;
         }
+
         footer {
             width: 210%;
         }
