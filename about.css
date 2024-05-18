@@ -359,7 +359,7 @@ footer p {
 
 @media (max-width:425px) {
     body {
-        width: 125%;
+        width: 135%;
     }
 
     .white-logo {
@@ -373,7 +373,7 @@ footer p {
     .top {
         background-color: white;
         width: 100%;
-        height: 15%;
+        height: 15%
     }
 
     .black-logo {
@@ -382,6 +382,7 @@ footer p {
         display: flex;
         justify-content: space-between;
         padding-top: 10px;
+
     }
 
     .mmm {
@@ -393,7 +394,8 @@ footer p {
 
     .article1 {
         width: 100%;
-        padding: 0;
+        padding: 0px;
+        margin: 0;
     }
 
     header {
@@ -402,31 +404,12 @@ footer p {
         background-attachment: scroll;
     }
 
-    header .article2 h1 {
-        margin: 0;
-        padding-top: 30px;
-        font-size: none;
-        font-size: 30px !important;
-    }
-
-    /* .article2 {
-        width: 90% !important;
-        height: 40vh !important;
-        padding: 0;
-        margin: 0;
-    }
-
     .article2 h1 {
-        padding-top: 60px;
+        padding-top: 0;
         font-size: none;
         font-size: 30px !important;
     }
 
-    header {
-        width: 80%;
-        height: 50vh;
-        background-attachment: scroll;
-    } */
 
     .container {
         width: 70%;
