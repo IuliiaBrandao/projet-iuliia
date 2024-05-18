@@ -447,8 +447,8 @@ footer p {
         }
 
         .un-image {
-            width: 350px;
-            height: 250px;
+            width: 1/2;
+            
         }
 
         .section2 {
@@ -457,13 +457,13 @@ footer p {
             flex-direction: column;
         }
 
-        .section2 {
+        .section2-content {
             width: 100%;
             display: flex;
             flex-direction: column;
         }
 
-        .mission {
+        /* .mission {
             width: 80%;
         }
 
@@ -474,7 +474,7 @@ footer p {
 
         .mission3 {
             width: 77%;
-        }
+        } */ */
 
         .container {
             padding: none;
@@ -491,6 +491,18 @@ footer p {
             width: 120%;
         }
 
+        .imgs {
+            
+            width: 150%;
+            display: flex;
+            flex-direction: column;
+        }
+        .imgsblock {
+            
+            width: 90%;
+            display: flex;
+            flex-direction: column;
+        }
         footer {
             width: 210%;
         }
