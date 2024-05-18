@@ -303,11 +303,17 @@ footer p {
         justify-content: space-between;
 
     }
+    .article3{
+        padding: 0;
+        margin: 0;
+    }
 
     .w30 {
         width: 100%;
         display: flex;
         flex-direction: column;
+        padding: 0;
+        margin: 0;
     }
 
     .w {
