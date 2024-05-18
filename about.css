@@ -394,8 +394,7 @@ footer p {
 
     .article1 {
         width: 100%;
-        padding: 0px;
-        margin: 0;
+        padding-bottom: 20px !important;
     }
 
     header {
@@ -405,11 +404,9 @@ footer p {
     }
 
     .article2 h1 {
-        padding-top: 0;
-        font-size: none;
+        
         font-size: 30px !important;
     }
-
 
     .container {
         width: 70%;
