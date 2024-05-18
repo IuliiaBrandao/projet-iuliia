@@ -405,15 +405,15 @@ footer p {
     }
 
     .article2 {
-        width: 120%;
-    }
-
-    .h1 {
         margin: none;
         padding: none;
-        font-size: 30px !important;
-        width: 100px;
-        height: 50px;
+        width: 425px !important;
+        height: 222px !important;
+    }
+
+    .article2.h1 {
+     width: 385px !important;
+     height: 42px !important;
     }
 
     .container {
@@ -427,8 +427,6 @@ footer p {
 
     }
 
-
-
     .section1 {
         width: 90%;
         display: flex;
@@ -437,8 +435,10 @@ footer p {
         gap: 1rem;
         text-align: start;
     }
-    .cascade {
-        width: 50vh;
+
+    .section1 .cascade {
+        width: 320px;
+        height: 220px;
     }
 
     .section2 {
