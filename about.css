@@ -400,20 +400,21 @@ footer p {
 
     header {
         width: 75%;
-        height: 25vh;
+        height: 35vh;
         background-attachment: scroll;
     }
 
     .article2 {
         margin: none;
-        padding: none;
+        padding-top: none;
+        padding-top: 0;
         width: 425px !important;
         height: 222px !important;
     }
 
     .article2.h1 {
-     width: 385px !important;
-     height: 42px !important;
+        font-size: none;
+        font-size: 30px !important;
     }
 
     .container {
