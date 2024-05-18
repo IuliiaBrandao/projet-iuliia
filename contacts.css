@@ -170,7 +170,7 @@ footer p {
     }
 
     .section2 {
-        width: 100%;
+        width: 200%;
         display: flex;
         flex-direction: column;
     }
