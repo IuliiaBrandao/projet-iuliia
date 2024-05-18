@@ -318,6 +318,7 @@ footer p {
 }
 
 @media (max-width:920px) {
+
     .white-logo {
         display: none;
     }
@@ -351,15 +352,16 @@ footer p {
 
     h1 {
         font-size: 44px !important;
-      
-    } 
+
+    }
+
     .evenement {
         width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        
+
     }
 
     .quotation {
@@ -415,5 +417,84 @@ footer p {
         display: flex;
         /* flex-direction: column; */
         justify-content: center;
+    }
+
+    @media (max-width:425px) {
+        header {
+            width: 210%;
+        }
+
+        header .expl {
+            width: 100%;
+            padding-top: 60px;
+        }
+
+        main {
+            width: 200%;
+        }
+
+        .evenement {
+            width: 100%;
+        }
+
+        .deux-images {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 1rem;
+            text-align: start;
+        }
+
+        .un-image {
+            width: 350px;
+            height: 250px;
+        }
+
+        .section2 {
+            width: 90%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .section2 {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .mission {
+            width: 80%;
+        }
+
+        .mission2 {
+            width: 70%;
+            padding-bottom: 20px;
+        }
+
+        .mission3 {
+            width: 77%;
+        }
+
+        .container {
+            padding: none;
+            width: 80%;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 1rem;
+            text-align: start;
+
+        }
+
+        .section1 {
+            width: 120%;
+        }
+
+        footer {
+            width: 210%;
+        }
+
+
     }
 }
