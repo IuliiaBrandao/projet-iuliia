@@ -213,15 +213,7 @@ footer p {
         font-size: 44px !important;
     }
 
-    /* .he {
-        width: 920px;
-        height: 50vh;
-        height: 80vh none;
-        height: 50vh !important;
-        background-attachment: scroll;
-    } */
-
-    */ .container {
+    .container {
         margin-left: 0px;
         margin-right: 100px;
     }
@@ -251,14 +243,17 @@ footer p {
 
     header {
         width: 75%;
-        height: 50vh;
+        height: 25vh;
         background-attachment: scroll;
     }
 
     header .article2 h1 {
-        font-size: 64px none;
-        font-size: 44px !important;
+        margin: 0;
+        padding-top: 30px;
+        font-size: none;
+        font-size: 30px !important;
     }
+    
      
     .white-logo {
         display: none;
@@ -283,6 +278,8 @@ footer p {
     .p-12 {
         width: 80%;
         padding: 0;
+        padding: none;
+        margin: 0;
         margin: 0;
     }
 
@@ -328,6 +325,15 @@ footer p {
         margin-left: 0px;
         margin-right: 80px;
     }  
+
+    footer{
+        width: 70%;
+        height: 20%;
+        padding-left: 3%;
+        padding-right: 3%;
+        padding-bottom: 5%;
+        padding-top: 5%;
+    }
   
 
 }
