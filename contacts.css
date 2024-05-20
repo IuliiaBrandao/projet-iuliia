@@ -140,7 +140,7 @@ footer p {
 
     .top {
         background-color: white;
-        width: 920px;
+        width: 100%;
         height: 70px;
     }
 
@@ -158,19 +158,26 @@ footer p {
         display: flex;
 
     }
-
+/* 
     body {
         width: 920px;
         height: 70px;
-    }
+    } */
 
     header {
+      
+        width: 100%;
         height: 50vh;
         background-attachment: scroll;
     }
+    .header h1 {
+       
+        display: flex;
+        justify-self: center;
+    }
 
     .section2 {
-        width: 100%;
+        width: 180%;
         display: flex;
         flex-direction: column;
     }
