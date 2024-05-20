@@ -176,8 +176,8 @@ footer p {
 }
 
 @media (max-width:920px) {
-    body{
-        width: 80%;
+    body {
+        width: 110%;
     }
 
 
@@ -212,6 +212,7 @@ footer p {
         justify-content: space-between;
 
     }
+
     header {
         width: 95%;
         height: 40vh;
@@ -223,7 +224,7 @@ footer p {
         font-size: 44px !important;
     }
 
-    .p-12{
+    .p-12 {
         width: 95%;
     }
 
@@ -245,6 +246,7 @@ footer p {
         width: 45%;
         gap: 1;
     }
+
     footer {
         width: 90%;
     }
@@ -255,7 +257,7 @@ footer p {
 @media (max-width:425px) {
 
     body {
-        width: 100%;
+        width: 150%;
     }
 
     header {
@@ -270,8 +272,8 @@ footer p {
         font-size: none;
         font-size: 30px !important;
     }
-    
-     
+
+
     .white-logo {
         display: none;
     }
@@ -286,19 +288,21 @@ footer p {
         height: 70px;
     }
 
+    .article2 {
+        height: 55vh;
+    }
+
     .article2 h1 {
-        padding-top: 60px;
-        font-size: 64px none;
         font-size: 30px !important;
     }
 
-    .p-12 {
+    /* .p-12 {
         width: 80%;
         padding: 0;
         padding: none;
         margin: 0;
         margin: 0;
-    }
+    } */
 
     .black-logo {
         width: 100px;
@@ -317,7 +321,8 @@ footer p {
         justify-content: space-between;
 
     }
-    .article3{
+
+    .article3 {
         padding: 0;
         margin: 0;
     }
@@ -341,18 +346,16 @@ footer p {
     .container {
         margin-left: 0px;
         margin-right: 80px;
-    }  
+    }
 
-    footer{
+    footer {
         width: 70%;
         height: 20%;
-        padding-left: 3%;
-        padding-right: 3%;
+        padding-left: 10%;
+        padding-right: 10%;
         padding-bottom: 5%;
         padding-top: 5%;
     }
-  
+
 
 }
-
-   
