@@ -27,6 +27,7 @@ button {
     border-radius: 30px;
     color: white;
     font-family: "Montserrat", sans-serif;
+    
 }
 
 nav ul {
@@ -138,6 +139,7 @@ div.article3 h5 {
 .deux-images {
     display: flex;
     justify-content: space-between;
+    padding-bottom: 60px;
 }
 
 .un-image {
