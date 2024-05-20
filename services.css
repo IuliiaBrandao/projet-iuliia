@@ -305,6 +305,11 @@ footer p {
     body{
         width: 920px;
     }
+   
+    .article2{
+        height: 70vh;
+        padding-top: 25px;
+    }
     .white-logo {
         display: none;
     }
@@ -316,12 +321,12 @@ footer p {
     .top {
         background-color: white;
         width: 100%;
-        height: 7vh;
+        height: 10vh;
     }
     
     header{
         width: 100%;
-        height: 50vh;  
+        height: 70vh;  
         background-attachment: scroll;
     }
  
@@ -344,6 +349,7 @@ footer p {
 
     h1 {
         font-size: 44px !important;
+        /* padding-bottom: 40px; */
 
     }
 
@@ -398,7 +404,12 @@ footer p {
     }
 
     .basservices {
-        flex-wrap: nowrap;
+        margin: none !important;
+        padding: none !important;
+        width: 80%;
+       justify-content: space-around;
+       /* align-items: self-start; */
+        /* flex-wrap: nowrap; */
     }
 }
 
