@@ -138,7 +138,7 @@ div.article3 h5 {
 
 .deux-images {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     padding-bottom: 60px;
 }
 
@@ -152,6 +152,8 @@ div.article3 h5 {
 
 .un1 {
     filter: drop-shadow(30px 10px 4px grey);
+    padding-left: 40px;
+    padding-bottom: 25px;
 }
 
 .un-image p {
@@ -175,6 +177,8 @@ div.article3 h5 {
     justify-content: flex-end;
     padding: 1rem;
     color: white;
+    margin-bottom: 70px;
+    
 
 }
 
