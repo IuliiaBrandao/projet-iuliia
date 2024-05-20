@@ -138,6 +138,10 @@ footer p {
 }
 
 @media (max-width:425px) {
+    body {
+        width: 180%;
+        
+    } 
     .white-logo {
         display: none;
     }
@@ -167,11 +171,6 @@ footer p {
 
     }
 
-    /* 
-    body {
-        width: 920px;
-        height: 70px;
-    } */
 
     header {
 
